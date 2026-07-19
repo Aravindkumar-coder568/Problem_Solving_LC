@@ -8,7 +8,7 @@ class Solution {
             for(int j=0;j<nums.length-i-1;j++){
                 String ab=arr[j]+arr[j+1];
                 String ba=arr[j+1]+arr[j];
-                if((ab).compareTo(ba)<0){
+                if((ab).compareTo(ba)<0){  // bubble sort
                     String temp = arr[j];
                     arr[j] = arr[j+1];
                     arr[j+1] = temp;
